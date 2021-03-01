@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    double Pi = 3.14;
+    double x, y, z;
+    double c = 4.5, a = 2.01;
+
+    x = log(abs(c + a)) / 1/atan(Pi / a) + 0.17;
+    y = (pow(sin(pow(a, 3) / 2), 2) - 1/tan(c / 4)) / (log(abs(a) + log(pow(c, 2))));
+    double xy = x * y;
+    z = c * exp(-2.5 * x + pow(y, 2));
+    cout << x << "  " << y << "  " << z << endl;
+
+}
+
